@@ -49,7 +49,8 @@ export default function updateUX() {
   copyDir('../ux/packages/datepicker/dist/native-modules', './node_modules/@aurelia-ux/datepicker/dist/native-modules/');
   copyDir('../ux/packages/form/dist/native-modules', './node_modules/@aurelia-ux/form/dist/native-modules/');
   copyDir('../ux/packages/grid/dist/native-modules', './node_modules/@aurelia-ux/grid/dist/native-modules/');
-  copyDir('../ux/packages/icons/dist/native-modules', './node_modules/@aurelia-ux/icons/dist/native-modules/');
+  // copyDir('../ux/packages/icon/dist/native-modules', './node_modules/@aurelia-ux/icon/dist/native-modules/');
+  copyDir('../ux/packages/icon/dist/native-modules', './node_modules/@aurelia-ux/icons/dist/native-modules/');
   copyDir('../ux/packages/input/dist/native-modules', './node_modules/@aurelia-ux/input/dist/native-modules/');
   copyDir('../ux/packages/input-info/dist/native-modules', './node_modules/@aurelia-ux/input-info/dist/native-modules/');
   copyDir('../ux/packages/list/dist/native-modules', './node_modules/@aurelia-ux/list/dist/native-modules/');

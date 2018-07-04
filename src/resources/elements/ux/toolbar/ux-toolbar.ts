@@ -15,7 +15,7 @@ export class UxToolbar {
     public element: HTMLElement,
     private eventAggregator: EventAggregator,
     private styleEngine: StyleEngine) {
-    styleEngine.ensureDefaultTheme(new UxToolbarTheme());
+    // (styleEngine as any).ensureDefaultTheme(new UxToolbarTheme());
   }
 
   public bind() {

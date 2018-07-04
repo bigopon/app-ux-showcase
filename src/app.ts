@@ -45,7 +45,7 @@ export class App {
 export class CategoriesValueConverter {
   toView(navModels) {
     let categories = new Map();
-
+    console.log(navModels);
     for (let model of navModels) {
       let routes = categories.get(model.settings.category);
 
